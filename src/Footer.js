@@ -6,8 +6,8 @@ import twitter from './images/twitter.png'
 
 const Footer = () => {
     return ( 
-        <section>
-        <h2>Footer</h2>
+        <section className='bg-custom-black'>
+       
         <div>
             <img src={metabnbfooter} alt="" />
 
@@ -21,21 +21,22 @@ const Footer = () => {
                 <img src={copyright} alt="" />
             </div>
 
-            <div>
+            <div className='text-white'>
                 <div>
                     <h3>community</h3>
                     <ul>
                         <li>
-                          <a href="#">NFT</a>
+                          
+                          <a href="http://" target="_blank" rel="noopener noreferrer">NFT</a>
                         </li>
                         <li>
-                            <a href="#">Tokens</a>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">Tokens</a>
                         </li>
                         <li>
-                            <a href="#">Landlords</a>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">Landlords</a>
                         </li>
                         <li>
-                            <a href="#">Discord</a>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">Discord</a>
                         </li>
                     </ul>
                 </div>
@@ -44,16 +45,16 @@ const Footer = () => {
                     <h3>Place</h3>
                     <ul>
                         <li>
-                          <a href="#">Castle</a>
+                          <a href="http://" target="_blank" rel="noopener noreferrer">Castle</a>
                         </li>
                         <li>
-                            <a href="#">Farms</a>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">Farms</a>
                         </li>
                         <li>
-                            <a href="#">Beach</a>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">Beach</a>
                         </li>
                         <li>
-                            <a href="#">Learn more</a>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">Learn more</a>
                         </li>
                     </ul>
                 </div>
@@ -62,16 +63,16 @@ const Footer = () => {
                     <h3>About us</h3>
                     <ul>
                         <li>
-                          <a href="">Road map</a>
+                          <a href="http://" target="_blank" rel="noopener noreferrer">Road map</a>
                         </li>
                         <li>
-                            <a href="">Creators</a>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">Creators</a>
                         </li>
                         <li>
-                            <a href="">Career</a>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">Career</a>
                         </li>
                         <li>
-                            <a href="">Contact us</a>
+                            <a href="http://" target="_blank" rel="noopener noreferrer">Contact us</a>
                         </li>
                     </ul>
                 </div>
