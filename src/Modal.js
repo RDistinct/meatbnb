@@ -1,9 +1,9 @@
-import MetamaskModal from './images/metamaskmodal'
-import WalletcollectionModal from './images/walletcollectionmodal'
+import MetamaskModal from './images/metamaskmodal.png'
+import WalletcollectionModal from './images/walletconnectmodal.png'
 const Modal = () => {
     return ( 
         <div className="bg-black bg-opacity-25 flex justify-center items-center">
-            <div className="w-[]">
+            <div className="w-[600px] ">
                 <div className="bg-white rounded">
                     <h3>Connect Wallet</h3>
                     <button>X</button>

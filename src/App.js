@@ -9,16 +9,18 @@ import Modal from "./Modal";
 function App() {
   return (
     <div className="App">  {/**this div will wrap our entire application */}
-      <div className="navbar">
+      <div className="mt-12 mb-32 m-auto w-[1240px] ">
         {/*There is  a styled div that contains Navbar here */}
             <Navbar/>
          </div> {/**div wraps our navbar */}
-      <div className="hero"><Hero/></div>{/** div wraps our hero section */}
-      <div><MetaBar/></div>
-      <div className="cardnft"><CardNft/>MBToken,Inspiration, Metabnb NFTS</div>{/** div wraps our 2nd hero section */}
+      <div className="ml-24 w-[1240px]">
+          <Hero/>
+      </div>{/** div wraps our hero section */}
+      <div className="bg-custom-purple mb-[40px] h-[70px]"><MetaBar/></div>
+      <div className="m-auto w-[1140px]"><CardNft/></div>{/** div wraps our 2nd hero section */}
 
-      <div className="cta"><CTA/></div>
-      <div className="footer"> <Footer/> Footer section</div>
+      <div className="bg-custom-purple"><CTA/></div>
+      <div className=""> <Footer/> Footer section</div>
         {/* <h1 className='text-3xl font-bold underline' >
           Welcome to tailwind css
         </h1> */}

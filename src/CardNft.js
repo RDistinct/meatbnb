@@ -9,9 +9,9 @@ import card8 from './images/card8.png'
 
 const CardNft = () => {
     return ( 
-        <section id="cards">
-        <h2>Inspiration for your next adventure</h2>
-        <div >card container
+        <section id="cards" className='mb-52px'>
+        <h2 className='text-4xl font-bold text-center mb-[44px]'>Inspiration for your next adventure</h2>
+        <div className='cursor-pointer grid grid-cols-4 gap-4 '>
             <img src={card1} alt="" />
             <img src={card2} alt="" />
             <img src={card3} alt="" />
