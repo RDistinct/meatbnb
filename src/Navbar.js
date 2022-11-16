@@ -1,4 +1,5 @@
 import Logo from './images/iconname.png'
+import { Link } from 'react-router-dom';
 const Navbar = () => {
     return ( 
         
@@ -13,7 +14,7 @@ const Navbar = () => {
                     <a href="http://">Place to stay</a>
                 </li>
                 <li className='mr-[48px]'>
-                    <a href="http://">NFTs</a>
+                    <Link to={'/Collections'} target="_blank">NFTs</Link>
                 </li>
                 <li>
                     <a href="http://">Community</a>

@@ -1,4 +1,4 @@
-import LocationBtn from './images/locationbtn.png'
+import LocationBtn from './images/location.png'
 import card5 from './images/card5.png'
 import card6 from './images/card6.png'
 import card7 from './images/card7.png'
@@ -19,67 +19,114 @@ import Navbar from './Navbar';
 import Footer from './Footer'
 const Collections = () => {
     return (
-        <section>
-            <Navbar></Navbar>
+      <section className="">
+        <Navbar></Navbar>
 
-            <div>
-                <ul>
-                    <li>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Restaurant</a>
-                    </li>
-                    <li>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Restaurant</a>
-                    </li>
-                    <li>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Restaurant</a>
-                    </li>
-                    <li>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Restaurant</a>
-                    </li>
-                    <li>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Restaurant</a>
-                    </li>
-                    <li>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Restaurant</a>
-                    </li>
-                    <li>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Restaurant</a>
-                    </li>
-                    <li>
-                        <a href="http://" target="_blank" rel="noopener noreferrer">Restaurant</a>
-                    </li>
-                </ul>
-                <button>
-                    <img src={LocationBtn} alt="" />
-                </button>
-            </div>
+        <div className="my-[100px] flex flex-row justify-between m-auto w-[80%]">
+          <ul className="flex flex-row ">
+            <li className=" px-[16px]">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                Restaurant
+              </a>
+            </li>
+            <li className=" px-[16px]">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                Cottage
+              </a>
+            </li>
+            <li className=" px-[16px]">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                Castle
+              </a>
+            </li>
+            <li className=" px-[16px]">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                Fantast city
+              </a>
+            </li>
+            <li className=" px-[16px]">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                Beach
+              </a>
+            </li>
+            <li className=" px-[16px]">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                Carbins
+              </a>
+            </li>
+            <li className=" px-[16px]">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                Off-grid
+              </a>
+            </li>
+            <li className=" px-[16px]">
+              <a href="http://" target="_blank" rel="noopener noreferrer">
+                Farm
+              </a>
+            </li>
+          </ul>
 
-            <div>
-                <img src={card5} alt="" />
-                <img src={card6} alt="" />
-                <img src={card7} alt="" />
-                <img src={card8} alt="" />
-                <img src={card1} alt="" />
-                <img src={card2} alt="" />
-                <img src={card3} alt="" />
-                <img src={card4} alt="" />
-                <img src={card9} alt="" />
-                <img src={card10} alt="" />
-                <img src={card11} alt="" />
-                <img src={card12} alt="" />
-                <img src={card13} alt="" />
-                <img src={card14} alt="" />
-                <img src={card15} alt="" />
-                <img src={card16} alt="" />
+          <button>
+            <img src={LocationBtn} alt="" />
+          </button>
+        </div>
 
-            </div>
-            {/* footer section */}
-            <Footer></Footer>
-        </section> 
-
-        
-        
-     );
+        <div className="grid grid-cols-4 gap-4 m-auto w-[80%]">
+          
+          {/** */}
+          <div>
+            <img src={card5} alt="" />
+          </div>
+          <div>
+            <img src={card6} alt="" />
+          </div>
+          <div>
+            <img src={card7} alt="" />
+          </div>
+          <div>
+            <img src={card8} alt="" />
+          </div>
+          <div>
+            <img src={card1} alt="" />
+          </div>
+          <div>
+            <img src={card2} alt="" />
+          </div>
+          <div>
+            <img src={card3} alt="" />
+          </div>
+          <div>
+            <img src={card4} alt="" />
+          </div>
+          <div>
+            <img src={card9} alt="" />
+          </div>
+          <div>
+            <img src={card10} alt="" />
+          </div>
+          <div>
+            <img src={card11} alt="" />
+          </div>
+          <div>
+            <img src={card12} alt="" />
+          </div>
+          <div>
+            <img src={card13} alt="" />
+          </div>
+          <div>
+            <img src={card14} alt="" />
+          </div>
+          <div>
+            <img src={card15} alt="" />
+          </div>
+          <div>
+            <img src={card16} alt="" />
+          </div>
+        </div>
+        {/* footer section */}
+        <Footer></Footer>
+      </section>
+    );
 }
  
 export default Collections
