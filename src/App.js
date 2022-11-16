@@ -4,7 +4,7 @@ import Footer from "./Footer";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import MetaBar from "./MetaBar";
-
+import Modal from "./Modal";
 
 function App() {
   return (
@@ -22,7 +22,7 @@ function App() {
         {/* <h1 className='text-3xl font-bold underline' >
           Welcome to tailwind css
         </h1> */}
-      
+      <Modal></Modal>
     </div>
   );
 }
