@@ -1,6 +1,10 @@
 import Logo from './images/iconname.png'
+import Modal from './Modal';
 import { Link } from 'react-router-dom';
+import { useState } from 'react';
+
 const Navbar = () => {
+    const [showModal, setShowModal] = useState(false)
     return ( 
         
         <nav className='flex flex-row justify-around '>
@@ -21,9 +25,11 @@ const Navbar = () => {
                 </li>
             </ul>
 
-            <button className='bg-custom-purple text-white w-[170px] h-[48px] rounded-md '>Connect wallet</button>
+            <button className='bg-custom-purple text-white w-[170px] h-[48px] rounded-md ' onClick={()=>setShowModal(true)}>Connect wallet</button>
 
+            <Modal isVisible={showModal} onClose={()=>setShowModal(false)}/>
         </nav>
+       
      );
 }
  

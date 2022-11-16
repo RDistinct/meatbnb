@@ -4,10 +4,12 @@ import Footer from "./Footer";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
 import MetaBar from "./MetaBar";
-import Modal from "./Modal";
+
+
 
 
 const Home = () => {
+    
     return ( 
         <div className="container">  {/**this div will wrap our entire application */}
           
@@ -22,11 +24,11 @@ const Home = () => {
           <div className="m-auto w-[1140px]"><CardNft/></div>{/** div wraps our 2nd hero section */}
 
           <div className="bg-custom-purple"><CTA/></div>
-          <div className=""> <Footer/> Footer section</div>
+          <div className=""> <Footer/> </div>
             {/* <h1 className='text-3xl font-bold underline' >
               Welcome to tailwind css
             </h1> */}
-          <Modal></Modal>
+          
         </div>
      );
 }
