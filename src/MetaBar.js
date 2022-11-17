@@ -8,7 +8,7 @@ const MetaBar = () => {
             <div my-4>
                 <img src={MBToken} alt="MBToken logo" />
             </div>
-            <div py-4>
+            <div className="py-4">
                 <img src={METAMASK} alt="metamask logo" />
             </div>
             <div py-4>

@@ -8,22 +8,24 @@ import card7 from './images/card7.png'
 import card8 from './images/card8.png'
 
 const CardNft = () => {
-    return ( 
-        <section id="cards" className='mb-52px'>
-        <h2 className='text-4xl font-bold text-center mb-[44px]'>Inspiration for your next adventure</h2>
-        <div className='cursor-pointer grid grid-cols-4 gap-4 '>
-            <img src={card1} alt="" />
-            <img src={card2} alt="" />
-            <img src={card3} alt="" />
-            <img src={card4} alt="" />
-            <img src={card5} alt="" />
-            <img src={card6} alt="" />
-            <img src={card7} alt="" />
-            <img src={card8} alt="" />
-        </div>
+    return (
+      <section id="cards" className="mb-52px">
+        <h2 className="text-4xl font-bold text-center mb-[44px]">
+          Inspiration for your next adventure
+        </h2>
 
-        </section>
-     );
+        <div className="cursor-pointer grid xl:grid-cols-4 lg:grid-cols-3  md:grid-cols-2 grid-cols-1 gap-4 justify-items-center">
+          <img src={card1} alt="" />
+          <img src={card2} alt="" />
+          <img src={card3} alt="" />
+          <img src={card4} alt="" />
+          <img src={card5} alt="" />
+          <img src={card6} alt="" />
+          <img src={card7} alt="" />
+          <img src={card8} alt="" />
+        </div>
+      </section>
+    );
 }
  
 export default CardNft;

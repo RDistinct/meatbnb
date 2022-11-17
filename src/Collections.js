@@ -20,46 +20,50 @@ import Footer from './Footer'
 const Collections = () => {
     return (
       <section className="">
+        <div className='mt-[40px]'>
         <Navbar></Navbar>
 
-        <div className="my-[100px] flex flex-row justify-between m-auto w-[80%]">
-          <ul className="flex flex-row ">
-            <li className=" px-[16px]">
+        </div>
+        {/**max-w-[1220px] w-[90%] mx-auto */}
+
+        <div className="my-[100px] flex md:flex-row flex-col justify-between m-auto w-[80%]">
+          <ul className="flex md:flex-row flex-col ">
+            <li className=" px-[16px] py-[10px]">
               <a href="http://" target="_blank" rel="noopener noreferrer">
                 Restaurant
               </a>
             </li>
-            <li className=" px-[16px]">
+            <li className=" px-[16px] py-[10px]">
               <a href="http://" target="_blank" rel="noopener noreferrer">
                 Cottage
               </a>
             </li>
-            <li className=" px-[16px]">
+            <li className=" px-[16px] py-[10px]">
               <a href="http://" target="_blank" rel="noopener noreferrer">
                 Castle
               </a>
             </li>
-            <li className=" px-[16px]">
+            <li className=" px-[16px] py-[10px]">
               <a href="http://" target="_blank" rel="noopener noreferrer">
                 Fantast city
               </a>
             </li>
-            <li className=" px-[16px]">
+            <li className=" px-[16px] py-[10px]">
               <a href="http://" target="_blank" rel="noopener noreferrer">
                 Beach
               </a>
             </li>
-            <li className=" px-[16px]">
+            <li className=" px-[16px] py-[10px]">
               <a href="http://" target="_blank" rel="noopener noreferrer">
                 Carbins
               </a>
             </li>
-            <li className=" px-[16px]">
+            <li className=" px-[16px] py-[10px]">
               <a href="http://" target="_blank" rel="noopener noreferrer">
                 Off-grid
               </a>
             </li>
-            <li className=" px-[16px]">
+            <li className=" px-[16px] py-[10px]">
               <a href="http://" target="_blank" rel="noopener noreferrer">
                 Farm
               </a>
@@ -71,7 +75,7 @@ const Collections = () => {
           </button>
         </div>
 
-        <div className="grid grid-cols-4 gap-4 m-auto w-[80%]">
+        <div className="grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4 m-auto w-[90%] mb-[92px] justify-items-center">
           
           {/** */}
           <div>
